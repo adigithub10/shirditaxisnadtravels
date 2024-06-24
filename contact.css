@@ -1,0 +1,1560 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.wholebody {
+  overflow-x: hidden;
+}
+a {
+  text-decoration: underline white;
+}
+body {
+  background: rgb(255, 255, 255);
+  overflow-x: hidden;
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 1) 0%,
+    rgb(227, 201, 145) 100%
+  );
+}
+.container {
+  border: 1px solid wheat;
+  padding: 20px;
+  position: relative;
+  background-color: ivory;
+  top: 130px;
+  left: 840px;
+  width: 500px;
+  height: 680px;
+  font-weight: bold;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+h3 {
+  position: relative;
+  left: 80px;
+}
+.get {
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 130px;
+}
+.left_container {
+  position: relative;
+  color: white;
+  background-color: rgba(244, 189, 71, 1);
+  bottom: 550px;
+  left: 40px;
+  border: 1px solid rgba(248, 189, 71, 1);
+  width: 680px;
+  height: 680px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 2px 2px rgb(175, 162, 162);
+  padding: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.phone {
+  position: relative;
+  bottom: 10px;
+  left: 21px;
+}
+.content {
+  position: relative;
+  left: 60px;
+  font-size: 25px;
+}
+.head_office {
+  position: relative;
+  top: 10px;
+  left: 10px;
+  bottom: 150px;
+}
+.email {
+  position: relative;
+  top: 50px;
+
+  left: 8px;
+  text-decoration: none;
+}
+.insta {
+  position: relative;
+  top: 70px;
+  left: 9px;
+}
+.add {
+  position: relative;
+  left: 52px;
+  font-size: 23px;
+  bottom: 25px;
+}
+.mail {
+  color: rgb(253, 253, 253);
+  text-decoration: none;
+  position: relative;
+  bottom: 25px;
+  left: 60px;
+  font-size: 20px;
+}
+.handle {
+  position: relative;
+  bottom: 45px;
+  left: 180px;
+  font-size: 25px;
+  text-decoration: none;
+  color: aliceblue;
+}
+.office {
+  position: relative;
+  bottom: 30px;
+  left: 53px;
+  font-size: 25px;
+}
+.instaicon {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  left: 10px;
+}
+.emailicon {
+  width: 35px;
+  height: 35px;
+  position: relative;
+  left: 7px;
+}
+.new {
+  position: relative;
+  bottom: 33px;
+  left: 55px;
+  font-size: 25px;
+}
+.gram {
+  position: relative;
+  bottom: 35px;
+  left: 55px;
+}
+.right_container {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.row_body {
+  font-size: 20px;
+}
+.name {
+  /* font-size: 25px; */
+}
+#name_box {
+  height: 35px;
+  position: relative;
+  left: 7px;
+  width: 400px;
+  bottom: 2px;
+  top: 5px;
+  border: 0px solid gray;
+  box-shadow: 3px 3px 2px 2px rgb(186, 184, 184);
+  border-radius: 5px;
+  background-color: #ffe7c2;
+}
+.cilent__mail {
+  font-size: 35px;
+}
+.mailfill {
+  width: 400px;
+  position: relative;
+  top: 10px;
+  right: 2px;
+  height: 35px;
+  border: 0px solid gray;
+  box-shadow: 3px 3px 2px 2px rgb(186, 184, 184);
+  border-radius: 5px;
+  background-color: #ffd699;
+}
+.num {
+  position: relative;
+  top: 30px;
+}
+#phone {
+  position: relative;
+  top: 40px;
+  height: 35px;
+  border: 0px solid gray;
+  box-shadow: 3px 3px 2px 2px rgb(186, 184, 184);
+  border-radius: 5px;
+  background-color: #ffcc80;
+}
+.pass {
+  position: relative;
+  top: 50px;
+}
+#pass_num {
+  position: relative;
+  top: 60px;
+  right: 10px;
+  height: 35px;
+  border: 0px solid gray;
+  box-shadow: 3px 3px 2px 2px rgb(186, 184, 184);
+  border-radius: 5px;
+  background-color: #ffcc80;
+}
+.client_add {
+  position: relative;
+  top: 70px;
+}
+#add_cilent {
+  position: relative;
+  top: 80px;
+  border: 0px solid gray;
+  box-shadow: 3px 3px 2px 2px rgb(186, 184, 184);
+  border-radius: 5px;
+  height: 80px;
+  width: 430px;
+  background-color: #ffc266;
+}
+.submit {
+  position: relative;
+  top: 100px;
+  border: 3px solid #d5b493;
+  left: 180px;
+  color: brown;
+  height: 40px;
+  width: 90px;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 10px;
+  background-color: #ffc266;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+ul {
+  list-style: none;
+}
+.navmain {
+  height: 80px;
+  width: 100%;
+  background-color: rgba(248, 144, 73, 255);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  display: flex;
+  align-items: center;
+}
+ul {
+  list-style: none;
+}
+.officeicon {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  top: 10px;
+  left: 10px;
+}
+.navin {
+  color: white;
+  display: flex;
+  text-decoration: none;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  position: relative;
+
+  padding: 15px;
+  text-align: right;
+  font-size: 35px;
+  font-weight: 500;
+  left: 400px;
+}
+.navin:hover {
+  text-decoration: underline;
+}
+.mainlogo {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  position: relative;
+  top: 30px;
+  right: 20px;
+}
+.phoneicon {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  top: 15px;
+}
+.msgcorner {
+  width: 190px;
+  height: 190px;
+  position: relative;
+  left: 540px;
+  bottom: 80px;
+}
+
+@media screen and (max-width: 380px) {
+  html body {
+    overflow-x: hidden;
+  }
+  .navmain {
+    height: 70px;
+    width: 100%;
+    background-color: rgba(248, 144, 73, 255);
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    overflow-x: hidden;
+  }
+  ul {
+    list-style: none;
+  }
+  .navin {
+    color: white;
+    display: flex;
+    text-decoration: none;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    position: relative;
+    left: 2px;
+
+    padding: 6px;
+    text-align: right;
+    font-size: 17px;
+    font-weight: 500;
+  }
+  .get {
+    font-size: 30px;
+    position: relative;
+    left: 40px;
+    top: 5px;
+  }
+
+  .left_container {
+    position: relative;
+    color: white;
+
+    background-color: rgba(244, 189, 71, 1);
+    top: 100px;
+    left: 5px;
+    border: 1px solid rgba(248, 189, 71, 1);
+    width: 330px;
+    height: 680px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 2px 2px rgb(175, 162, 162);
+    padding: 20px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  .wholebody {
+    overflow-x: hidden;
+  }
+
+  .container {
+    border: 1px solid wheat;
+    padding: 15px;
+    margin: 2px;
+    position: relative;
+    background-color: ivory;
+    top: 50px;
+    left: 10px;
+    width: 340px;
+    height: 700px;
+    font-weight: bold;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+
+  .right_container {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    width: 100%;
+
+    position: relative;
+    left: -10px;
+  }
+  #name_box {
+    height: 35px;
+    position: relative;
+    left: -1px;
+    width: 280px;
+    bottom: 2px;
+    top: 5px;
+    border: 0px solid gray;
+    box-shadow: 3px 3px 2px 2px rgb(186, 184, 184);
+    border-radius: 5px;
+    background-color: #ffe7c2;
+  }
+  .mailfill {
+    width: 280px;
+    position: relative;
+    top: 10px;
+    right: 2px;
+    height: 35px;
+    border: 0px solid gray;
+    box-shadow: 3px 3px 2px 2px rgb(186, 184, 184);
+    border-radius: 5px;
+    background-color: #ffd699;
+  }
+  #pass_num {
+    position: relative;
+    left: -12px;
+  }
+  #add_cilent {
+    position: relative;
+    top: 80px;
+    border: 0px solid gray;
+    box-shadow: 3px 3px 2px 2px rgb(186, 184, 184);
+    border-radius: 5px;
+    height: 80px;
+    width: 280px;
+    background-color: #ffc266;
+  }
+  .submit {
+    position: relative;
+    top: 100px;
+    border: 3px solid #d5b493;
+    left: 100px;
+    color: brown;
+    height: 40px;
+    width: 90px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #ffc266;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  h3 {
+    position: relative;
+    left: 0px;
+  }
+  h1 {
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 70px;
+  }
+  .mainlogo {
+    height: 70px;
+    width: 70px;
+    position: relative;
+    right: 60px;
+    bottom1: 40px;
+    top: 10px;
+  }
+  .header {
+    position: relative;
+    top: -15px;
+    left: -40px;
+    font-size: 30px;
+  }
+  .owner {
+    font-size: 20px;
+    display: flex;
+    position: relative;
+    top: -30px;
+    right: -40px;
+  }
+  .content {
+    position: relative;
+    left: 80px;
+    font-size: 20px;
+    top: -30px;
+  }
+  .office {
+    position: relative;
+    top: -35px;
+    left: 20px;
+    bottom: 150px;
+    font-size: 20px;
+  }
+  .phone {
+    position: relative;
+    left: -15px;
+  }
+  .phoneicon {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 3px;
+    left: -2px;
+  }
+  .add {
+    font-size: 17px;
+    position: relative;
+    right: -70px;
+    left: 40px;
+  }
+  .officeicon {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: 10px;
+    left: -25px;
+  }
+  .instaicon {
+    position: relative;
+    left: -20px;
+    top: -30px;
+  }
+  .emailicon {
+    position: relative;
+    left: -20px;
+    top: -15px;
+  }
+  .new {
+    font-size: 20px;
+    position: relative;
+    top: -50px;
+    left: 27px;
+  }
+  .gram {
+    font-size: 20px;
+    top: -65px;
+    position: relative;
+    left: 30px;
+  }
+  .handle {
+    position: relative;
+    left: 100px;
+    top: -60px;
+    font-size: 20px;
+  }
+  .mail {
+    position: relative;
+    top: -30px;
+    left: 5px;
+    font-size: 16px;
+  }
+  .msgcorner {
+    position: relative;
+
+    left: 230px;
+    top: -30px;
+    width: 120px;
+    height: 120px;
+  }
+}
+@media screen and (max-width: 440px) {
+  html body {
+    overflow-x: hidden;
+  }
+  .navmain {
+    height: 70px;
+    width: 100%;
+    background-color: rgba(248, 144, 73, 255);
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    overflow-x: hidden;
+  }
+  ul {
+    list-style: none;
+  }
+  .navin {
+    color: white;
+    display: flex;
+    text-decoration: none;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    position: relative;
+    left: 2px;
+
+    padding: 6px;
+    text-align: right;
+    font-size: 17px;
+    font-weight: 500;
+  }
+  .get {
+    font-size: 30px;
+    position: relative;
+    left: 40px;
+    top: 5px;
+  }
+
+  .left_container {
+    position: relative;
+    color: white;
+
+    background-color: rgba(244, 189, 71, 1);
+    top: 100px;
+    left: px;
+    border: 1px solid rgba(248, 189, 71, 1);
+    width: 330px;
+    height: 680px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 2px 2px rgb(175, 162, 162);
+    padding: 20px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  .wholebody {
+    overflow-x: hidden;
+  }
+
+  .container {
+    border: 1px solid wheat;
+    padding: 15px;
+    margin: 2px;
+    position: relative;
+    background-color: ivory;
+    top: 50px;
+    left: 20px;
+    width: 340px;
+    height: 700px;
+    font-weight: bold;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+
+  .right_container {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    width: 100%;
+
+    position: relative;
+  }
+  #name_box {
+    height: 35px;
+    position: relative;
+    left: -1px;
+    width: 280px;
+    bottom: 2px;
+    top: 5px;
+    border: 0px solid gray;
+    box-shadow: 3px 3px 2px 2px rgb(186, 184, 184);
+    border-radius: 5px;
+    background-color: #ffe7c2;
+  }
+  .mailfill {
+    width: 280px;
+    position: relative;
+    top: 10px;
+    right: 2px;
+    height: 35px;
+    border: 0px solid gray;
+    box-shadow: 3px 3px 2px 2px rgb(186, 184, 184);
+    border-radius: 5px;
+    background-color: #ffd699;
+  }
+  #pass_num {
+    position: relative;
+    left: -12px;
+  }
+  #add_cilent {
+    position: relative;
+    top: 80px;
+    border: 0px solid gray;
+    box-shadow: 3px 3px 2px 2px rgb(186, 184, 184);
+    border-radius: 5px;
+    height: 80px;
+    width: 280px;
+    background-color: #ffc266;
+  }
+  .submit {
+    position: relative;
+    top: 100px;
+    border: 3px solid #d5b493;
+    left: 100px;
+    color: brown;
+    height: 40px;
+    width: 90px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #ffc266;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  h3 {
+    position: relative;
+    left: 0px;
+  }
+  h1 {
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 70px;
+  }
+  .mainlogo {
+    height: 70px;
+    width: 70px;
+    position: relative;
+    right: 60px;
+    bottom1: 40px;
+    top: 10px;
+  }
+  .header {
+    position: relative;
+    top: -15px;
+    left: -40px;
+    font-size: 30px;
+  }
+  .owner {
+    font-size: 20px;
+    display: flex;
+    position: relative;
+    top: -30px;
+    right: -40px;
+  }
+  .content {
+    position: relative;
+    left: 80px;
+    font-size: 20px;
+    top: -30px;
+  }
+  .office {
+    position: relative;
+    top: -35px;
+    left: 20px;
+    bottom: 150px;
+    font-size: 20px;
+  }
+  .phone {
+    position: relative;
+    left: -15px;
+  }
+  .phoneicon {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 3px;
+    left: -2px;
+  }
+  .add {
+    font-size: 17px;
+    position: relative;
+    right: -70px;
+    left: 40px;
+  }
+  .officeicon {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: 10px;
+    left: -25px;
+  }
+  .instaicon {
+    position: relative;
+    left: -20px;
+    top: -30px;
+  }
+  .emailicon {
+    position: relative;
+    left: -20px;
+    top: -15px;
+  }
+  .new {
+    font-size: 20px;
+    position: relative;
+    top: -50px;
+    left: 27px;
+  }
+  .gram {
+    font-size: 20px;
+    top: -65px;
+    position: relative;
+    left: 30px;
+  }
+  .handle {
+    position: relative;
+    left: 100px;
+    top: -60px;
+    font-size: 20px;
+  }
+  .mail {
+    position: relative;
+    top: -30px;
+    left: 5px;
+    font-size: 16px;
+  }
+  .msgcorner {
+    position: relative;
+
+    left: 230px;
+    top: -30px;
+    width: 120px;
+    height: 120px;
+  }
+}
+@media screen and (max-width: 600px) {
+
+     html body {
+      overflow-x: hidden;
+    }
+    .navmain {
+      height: 70px;
+      width: 100%;
+      background-color: rgba(248, 144, 73, 255);
+      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      display: flex;
+      align-items: center;
+      overflow-x: hidden;
+    }
+    ul {
+      list-style: none;
+    }
+    .navin {
+      color: white;
+      display: flex;
+      text-decoration: none;
+      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      position: relative;
+      left: 2px;
+  
+      padding: 6px;
+      text-align: right;
+      font-size: 17px;
+      font-weight: 500;
+    }
+    .get {
+      font-size: 30px;
+      position: relative;
+      left: 40px;
+      top: 5px;
+    }
+  
+    .left_container {
+      position: relative;
+      color: white;
+      overflow-x: hidden;
+      background-color: rgba(244, 189, 71, 1);
+      top: 100px;
+      left: px;
+      border: 1px solid rgba(248, 189, 71, 1);
+      width: 330px;
+      height: 680px;
+      border-radius: 20px;
+      box-shadow: 10px 10px 2px 2px rgb(175, 162, 162);
+      padding: 20px;
+      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    }
+    .wholebody {
+      overflow-x: hidden;
+    }
+  
+    .container {
+      border: 1px solid wheat;
+      padding: 15px;
+      margin: 2px;
+      position: relative;
+      background-color: ivory;
+      top: 50px;
+      left: 20px;
+      width: 340px;
+      height: 700px;
+      font-weight: bold;
+      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    }
+  
+    .right_container {
+      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      width: 100%;
+  
+      position: relative;
+    }
+    #name_box {
+      height: 35px;
+      position: relative;
+      left: -1px;
+      width: 280px;
+      bottom: 2px;
+      top: 5px;
+      border: 0px solid gray;
+      box-shadow: 3px 3px 2px 2px rgb(186, 184, 184);
+      border-radius: 5px;
+      background-color: #ffe7c2;
+    }
+    .mailfill {
+      width: 280px;
+      position: relative;
+      top: 10px;
+      right: 2px;
+      height: 35px;
+      border: 0px solid gray;
+      box-shadow: 3px 3px 2px 2px rgb(186, 184, 184);
+      border-radius: 5px;
+      background-color: #ffd699;
+    }
+    #pass_num {
+      position: relative;
+      left: -12px;
+    }
+    #add_cilent {
+      position: relative;
+      top: 80px;
+      border: 0px solid gray;
+      box-shadow: 3px 3px 2px 2px rgb(186, 184, 184);
+      border-radius: 5px;
+      height: 80px;
+      width: 280px;
+      background-color: #ffc266;
+    }
+    .submit {
+      position: relative;
+      top: 100px;
+      border: 3px solid #d5b493;
+      left: 100px;
+      color: brown;
+      height: 40px;
+      width: 90px;
+      font-weight: bold;
+      font-size: 20px;
+      border-radius: 10px;
+      background-color: #ffc266;
+      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    }
+    h3 {
+      position: relative;
+      left: 0px;
+    }
+    h1 {
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      left: 70px;
+    }
+    .mainlogo {
+      height: 70px;
+      width: 70px;
+      position: relative;
+      right: 60px;
+      bottom: 40px;
+      top: 10px;
+    }
+    .header {
+      position: relative;
+      top: -15px;
+      left: -40px;
+      font-size: 30px;
+    }
+    .owner {
+      font-size: 20px;
+      display: flex;
+      position: relative;
+      top: -30px;
+      right: -40px;
+    }
+    .content {
+      position: relative;
+      left: 80px;
+      font-size: 20px;
+      top: -30px;
+    }
+    .office {
+      position: relative;
+      top: -35px;
+      left: 20px;
+      bottom: 150px;
+      font-size: 20px;
+    }
+    .phone {
+      position: relative;
+      left: -15px;
+    }
+    .phoneicon {
+      width: 30px;
+      height: 30px;
+      position: relative;
+      top: 3px;
+      left: -2px;
+    }
+    .add {
+      font-size: 17px;
+      position: relative;
+      right: -70px;
+      left: 40px;
+    }
+    .officeicon {
+      width: 40px;
+      height: 40px;
+      position: relative;
+      top: 10px;
+      left: -25px;
+    }
+    .instaicon {
+      position: relative;
+      left: -20px;
+      top: -30px;
+    }
+    .emailicon {
+      position: relative;
+      left: -20px;
+      top: -15px;
+    }
+    .new {
+      font-size: 20px;
+      position: relative;
+      top: -50px;
+      left: 27px;
+    }
+    .gram {
+      font-size: 20px;
+      top: -65px;
+      position: relative;
+      left: 30px;
+    }
+    .handle {
+      position: relative;
+      left: 100px;
+      top: -60px;
+      font-size: 20px;
+    }
+    .mail {
+      position: relative;
+      top: -30px;
+      left: 5px;
+      font-size: 16px;
+    }
+    .msgcorner {
+      position: relative;
+  
+      left: 230px;
+      top: -30px;
+      width: 120px;
+      height: 120px;
+    }
+  }
+  @media screen and (max-width: 800px) {
+    html body {
+     overflow-x: hidden;
+   }
+   .navmain {
+     height: 70px;
+     width: 100%;
+     background-color: rgba(248, 144, 73, 255);
+     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+       "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+     display: flex;
+     align-items: center;
+     overflow-x: hidden;
+   }
+   ul {
+     list-style: none;
+   }
+   .navin {
+     color: white;
+     display: flex;
+     text-decoration: none;
+     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+       "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+     position: relative;
+     left: 2px;
+ 
+     padding: 6px;
+     text-align: right;
+     font-size: 17px;
+     font-weight: 500;
+   }
+   .get {
+     font-size: 30px;
+     position: relative;
+     left: 40px;
+     top: 5px;
+   }
+ 
+   .left_container {
+     position: relative;
+     color: white;
+ 
+     background-color: rgba(244, 189, 71, 1);
+     top: 100px;
+     left: px;
+     border: 1px solid rgba(248, 189, 71, 1);
+     width: 330px;
+     height: 680px;
+     border-radius: 20px;
+     box-shadow: 10px 10px 2px 2px rgb(175, 162, 162);
+     padding: 20px;
+     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+       "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+   }
+   .wholebody {
+     overflow-x: hidden;
+   }
+ 
+   .container {
+     border: 1px solid wheat;
+     padding: 15px;
+     margin: 2px;
+     position: relative;
+     background-color: ivory;
+     top: 50px;
+     left: 20px;
+     width: 340px;
+     height: 700px;
+     font-weight: bold;
+     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+       "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+   }
+ 
+   .right_container {
+     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+       "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+     width: 100%;
+ 
+     position: relative;
+   }
+   #name_box {
+     height: 35px;
+     position: relative;
+     left: -1px;
+     width: 280px;
+     bottom: 2px;
+     top: 5px;
+     border: 0px solid gray;
+     box-shadow: 3px 3px 2px 2px rgb(186, 184, 184);
+     border-radius: 5px;
+     background-color: #ffe7c2;
+   }
+   .mailfill {
+     width: 280px;
+     position: relative;
+     top: 10px;
+     right: 2px;
+     height: 35px;
+     border: 0px solid gray;
+     box-shadow: 3px 3px 2px 2px rgb(186, 184, 184);
+     border-radius: 5px;
+     background-color: #ffd699;
+   }
+   #pass_num {
+     position: relative;
+     left: -12px;
+   }
+   #add_cilent {
+     position: relative;
+     top: 80px;
+     border: 0px solid gray;
+     box-shadow: 3px 3px 2px 2px rgb(186, 184, 184);
+     border-radius: 5px;
+     height: 80px;
+     width: 280px;
+     background-color: #ffc266;
+   }
+   .submit {
+     position: relative;
+     top: 100px;
+     border: 3px solid #d5b493;
+     left: 100px;
+     color: brown;
+     height: 40px;
+     width: 90px;
+     font-weight: bold;
+     font-size: 20px;
+     border-radius: 10px;
+     background-color: #ffc266;
+     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+       "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+   }
+   h3 {
+     position: relative;
+     left: 0px;
+   }
+   h1 {
+     justify-content: center;
+     align-items: center;
+     position: relative;
+     left: 70px;
+   }
+   .mainlogo {
+     height: 70px;
+     width: 70px;
+     position: relative;
+     right: 60px;
+     bottom: 40px;
+     top: 10px;
+   }
+   .header {
+     position: relative;
+     top: -15px;
+     left: -40px;
+     font-size: 30px;
+   }
+   .owner {
+     font-size: 20px;
+     display: flex;
+     position: relative;
+     top: -30px;
+     right: -40px;
+   }
+   .content {
+     position: relative;
+     left: 80px;
+     font-size: 20px;
+     top: -30px;
+   }
+   .office {
+     position: relative;
+     top: -35px;
+     left: 20px;
+     bottom: 150px;
+     font-size: 20px;
+   }
+   .phone {
+     position: relative;
+     left: -15px;
+   }
+   .phoneicon {
+     width: 30px;
+     height: 30px;
+     position: relative;
+     top: 3px;
+     left: -2px;
+   }
+   .add {
+     font-size: 17px;
+     position: relative;
+     right: -70px;
+     left: 40px;
+   }
+   .officeicon {
+     width: 40px;
+     height: 40px;
+     position: relative;
+     top: 10px;
+     left: -25px;
+   }
+   .instaicon {
+     position: relative;
+     left: -20px;
+     top: -30px;
+   }
+   .emailicon {
+     position: relative;
+     left: -20px;
+     top: -15px;
+   }
+   .new {
+     font-size: 20px;
+     position: relative;
+     top: -50px;
+     left: 27px;
+   }
+   .gram {
+     font-size: 20px;
+     top: -65px;
+     position: relative;
+     left: 30px;
+   }
+   .handle {
+     position: relative;
+     left: 100px;
+     top: -60px;
+     font-size: 20px;
+   }
+   .mail {
+     position: relative;
+     top: -30px;
+     left: 5px;
+     font-size: 16px;
+   }
+   .msgcorner {
+     position: relative;
+ 
+     left: 230px;
+     top: -30px;
+     width: 120px;
+     height: 120px;
+   }
+ }
+ @media screen and (min-width:810px) and (max-width:1350px)
+{
+  * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  .wholebody {
+    overflow-x: hidden;
+  }
+  a {
+    text-decoration: underline white;
+  }
+  body {
+    background: rgb(255, 255, 255);
+    overflow-x: hidden;
+    background: radial-gradient(
+      circle,
+      rgba(255, 255, 255, 1) 0%,
+      rgb(227, 201, 145) 100%
+    );
+  }
+  .container {
+    border: 1px solid wheat;
+    padding: 20px;
+    position: relative;
+    background-color: ivory;
+    top: 130px;
+    left: 840px;
+    width: 500px;
+    height: 680px;
+    font-weight: bold;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  h3 {
+    position: relative;
+    left: 80px;
+  }
+  .get {
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 130px;
+  }
+  .left_container {
+    position: relative;
+    color: white;
+    background-color: rgba(244, 189, 71, 1);
+    bottom: 550px;
+    left: 40px;
+    border: 1px solid rgba(248, 189, 71, 1);
+    width: 680px;
+    height: 680px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 2px 2px rgb(175, 162, 162);
+    padding: 20px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  .phone {
+    position: relative;
+    bottom: 10px;
+    left: 21px;
+  }
+  .content {
+    position: relative;
+    left: 60px;
+    font-size: 25px;
+  }
+  .head_office {
+    position: relative;
+    top: 10px;
+    left: 10px;
+    bottom: 150px;
+  }
+  .email {
+    position: relative;
+    top: 50px;
+  
+    left: 8px;
+    text-decoration: none;
+  }
+  .insta {
+    position: relative;
+    top: 70px;
+    left: 9px;
+  }
+  .add {
+    position: relative;
+    left: 52px;
+    font-size: 23px;
+    bottom: 25px;
+  }
+  .mail {
+    color: rgb(253, 253, 253);
+    text-decoration: none;
+    position: relative;
+    bottom: 25px;
+    left: 60px;
+    font-size: 20px;
+  }
+  .handle {
+    position: relative;
+    bottom: 45px;
+    left: 180px;
+    font-size: 25px;
+    text-decoration: none;
+    color: aliceblue;
+  }
+  .office {
+    position: relative;
+    bottom: 30px;
+    left: 53px;
+    font-size: 25px;
+  }
+  .instaicon {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    left: 10px;
+  }
+  .emailicon {
+    width: 35px;
+    height: 35px;
+    position: relative;
+    left: 7px;
+  }
+  .new {
+    position: relative;
+    bottom: 33px;
+    left: 55px;
+    font-size: 25px;
+  }
+  .gram {
+    position: relative;
+    bottom: 35px;
+    left: 55px;
+  }
+  .right_container {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  .row_body {
+    font-size: 20px;
+  }
+  .name {
+    /* font-size: 25px; */
+  }
+  #name_box {
+    height: 35px;
+    position: relative;
+    left: 7px;
+    width: 400px;
+    bottom: 2px;
+    top: 5px;
+    border: 0px solid gray;
+    box-shadow: 3px 3px 2px 2px rgb(186, 184, 184);
+    border-radius: 5px;
+    background-color: #ffe7c2;
+  }
+  .cilent__mail {
+    font-size: 35px;
+  }
+  .mailfill {
+    width: 400px;
+    position: relative;
+    top: 10px;
+    right: 2px;
+    height: 35px;
+    border: 0px solid gray;
+    box-shadow: 3px 3px 2px 2px rgb(186, 184, 184);
+    border-radius: 5px;
+    background-color: #ffd699;
+  }
+  .num {
+    position: relative;
+    top: 30px;
+  }
+  #phone {
+    position: relative;
+    top: 40px;
+    height: 35px;
+    border: 0px solid gray;
+    box-shadow: 3px 3px 2px 2px rgb(186, 184, 184);
+    border-radius: 5px;
+    background-color: #ffcc80;
+  }
+  .pass {
+    position: relative;
+    top: 50px;
+  }
+  #pass_num {
+    position: relative;
+    top: 60px;
+    right: 10px;
+    height: 35px;
+    border: 0px solid gray;
+    box-shadow: 3px 3px 2px 2px rgb(186, 184, 184);
+    border-radius: 5px;
+    background-color: #ffcc80;
+  }
+  .client_add {
+    position: relative;
+    top: 70px;
+  }
+  #add_cilent {
+    position: relative;
+    top: 80px;
+    border: 0px solid gray;
+    box-shadow: 3px 3px 2px 2px rgb(186, 184, 184);
+    border-radius: 5px;
+    height: 80px;
+    width: 430px;
+    background-color: #ffc266;
+  }
+  .submit {
+    position: relative;
+    top: 100px;
+    border: 3px solid #d5b493;
+    left: 180px;
+    color: brown;
+    height: 40px;
+    width: 90px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #ffc266;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  ul {
+    list-style: none;
+  }
+  .navmain {
+    height: 80px;
+    width: 100%;
+    background-color: rgba(248, 144, 73, 255);
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+  }
+  ul {
+    list-style: none;
+  }
+  .officeicon {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+  }
+  .navin {
+    color: white;
+    display: flex;
+    text-decoration: none;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    position: relative;
+  
+    padding: 10px;
+   
+    font-size: 35px;
+    font-weight: 500;
+    left: 150px;
+   
+  }
+  .navin:hover {
+    text-decoration: underline;
+  }
+  .mainlogo {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    position: relative;
+    top: 30px;
+    right: 20px;
+  }
+  .phoneicon {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: 15px;
+  }
+  .msgcorner {
+    width: 190px;
+    height: 190px;
+    position: relative;
+    left: 540px;
+    bottom: 80px;
+  }
+}
+
